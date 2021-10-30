@@ -1,0 +1,95 @@
+:root {
+  // Theme 1
+
+  // bg
+  --blue-3: hsl(222, 26%, 31%);
+  --blue-4: hsl(223, 31%, 20%);
+  --blue-5: hsl(224, 36%, 15%);
+  // keys
+  --blue-1: hsl(225, 21%, 49%);
+  --blue-2: hsl(224, 28%, 35%);
+  --red-1: hsl(6, 63%, 50%);
+  --red-2: hsl(6, 70%, 34%);
+  --gray-orange-1: hsl(30, 25%, 89%);
+  --gray-orange-2: hsl(28, 16%, 65%);
+  // text
+  --gray-blue: hsl(221, 14%, 31%);
+
+  // Theme 2
+
+  // bg
+  --very-light-gray: hsl(0, 0%, 93%);
+  --light-gray: hsl(0, 0%, 90%);
+  --gray-red: hsl(0, 5%, 81%);
+  // keys
+  --cyan-1: hsl(185, 42%, 37%);
+  --cyan-2: hsl(185, 58%, 25%);
+  --orange-1: hsl(25, 98%, 40%);
+  --orange-2: hsl(25, 99%, 27%);
+  --gray-yellow: hsl(45, 7%, 89%);
+  --gray-orange-3: hsl(35, 11%, 61%);
+  // text
+  --gray-yellow-2: hsl(60, 10%, 19%);
+  --white: hsl(0, 0%, 100%);
+
+  // Theme 3
+
+  // bg
+  --violet-4: hsl(268, 75%, 9%);
+  --violet-3: hsl(268, 71%, 12%);
+  // keys
+  --violet-1: hsl(281, 89%, 26%);
+  --magenta-1: hsl(285, 91%, 52%);
+  --pure-cyan-1: hsl(176, 100%, 44%);
+  --pure-cyan-2: hsl(177, 92%, 70%);
+  --violet-2: hsl(268, 47%, 21%);
+  --magenta-2: hsl(290, 70%, 36%);
+  // text
+  --yellow-1: hsl(52, 100%, 62%);
+  --blue-6: hsl(198, 20%, 13%);
+}
+
+.theme-1 {
+  --bg: var(--blue-3);
+  --toggle-keypad-bg: var(--blue-4);
+  --screen-bg: var(--blue-5);
+  --key-bg-light: var(--gray-orange-1);
+  --key-bg-shadow-light: var(--gray-orange-2);
+  --key-bg-dark: var(--blue-1);
+  --key-bg-shadow-dark: var(--blue-2);
+  --key-bg-red: var(--red-1);
+  --key-bg-shadow-red: var(--red-2);
+  --text: var(--white);
+  --key-text: var(--gray-blue);
+  --del-reset-key-text: var(--gray-yellow);
+}
+
+.theme-2 {
+  --bg: var(--light-gray);
+  --toggle-keypad-bg: var(--gray-red);
+  --screen-bg: var(--very-light-gray);
+  --key-bg-light: var(--gray-yellow);
+  --key-bg-shadow-light: var(--gray-orange-3);
+  --key-bg-dark: var(--cyan-1);
+  --key-bg-shadow-dark: var(--cyan-2);
+  --key-bg-red: var(--orange-1);
+  --key-bg-shadow-red: var(--orange-2);
+  --text: var(--gray-yellow-2);
+  --key-text: var(--gray-yellow-2);
+  --del-reset-key-text: var(--gray-yellow);
+}
+
+.theme-3 {
+  --bg: var(--violet-4);
+  --toggle-keypad-bg: var(--violet-3);
+  --screen-bg: var(--violet-2);
+  --key-bg-light: var(--violet-2);
+  --key-bg-shadow-light: var(--magenta-2);
+  --key-bg-dark: var(--violet-1);
+  --key-bg-shadow-dark: var(--magenta-1);
+  --key-bg-red: var(--pure-cyan-1);
+  --key-bg-shadow-red: var(--pure-cyan-2);
+  --text: var(--yellow-1);
+  --key-text: var(--yellow-1);
+  --del-reset-key-text: var(--gray-yellow);
+}

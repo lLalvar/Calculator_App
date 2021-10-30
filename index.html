@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Frontend Mentor | Calculator app</title>
+    <script defer src="src/app.js" type="text/javascript"></script>
+  </head>
+  <body class="theme-1">
+    <div class="container">
+      <div class="section-1">
+        <h2>calc</h2>
+        <div class="theme-container">
+          <div class="theme-title"><small>THEME</small></div>
+          <div class="switch">
+            <label for="one" class="one">
+              <input id="one" name="num" type="radio" checked />
+              <span class="check check-one"></span>
+              <span class="theme-num">1<span class="hide-dot">.</span></span>
+            </label>
+            <label for="two" class="two">
+              <input id="two" name="num" type="radio" />
+              <span class="check check-two"></span>
+              <span class="theme-num">2</span>
+            </label>
+            <label for="three" class="three">
+              <input id="three" name="num" type="radio" />
+              <span class="check check-three"></span>
+              <span class="theme-num">3</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="section-2">
+        <p id="screen"></p>
+      </div>
+      <div class="section-3">
+        <div class="keys">
+          <div class="key"><h5>7</h5></div>
+          <div class="key"><h5>8</h5></div>
+          <div class="key"><h5>9</h5></div>
+          <div class="key dark-key" id="del"><h6>DEL</h6></div>
+          <div class="key"><h5>4</h5></div>
+          <div class="key"><h5>5</h5></div>
+          <div class="key"><h5>6</h5></div>
+          <div class="key math" id="plus"><h5>+</h5></div>
+          <div class="key"><h5>1</h5></div>
+          <div class="key"><h5>2</h5></div>
+          <div class="key"><h5>3</h5></div>
+          <div class="key math" id="minus"><h5>-</h5></div>
+          <div class="key dot"><h5>.</h5></div>
+          <div class="key"><h5>0</h5></div>
+          <div class="key math" id="div"><h5>/</h5></div>
+          <div class="key key-x math" id="mult"><h5>x</h5></div>
+          <div class="key dark-key reset-key" id="reset"><h6>RESET</h6></div>
+          <div class="key red-key" id="equals"><h5>=</h5></div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/lLalvar" target="_blank"
+        >Lalvar</a
+      >.
+    </div>
+  </body>
+</html>
