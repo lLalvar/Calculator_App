@@ -17,8 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://llalvar.github.io/Calculator_App/)
+- Live Site URL: [Calculator App](https://llalvar.github.io/Calculator_App/)
 
 ### Built with
 
